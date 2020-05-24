@@ -5,7 +5,7 @@ TODO:
 1. use gnu stow for installation
 2. list of tools configuration to integrate:
    - vim (vim-plug, list of plugins)
-   - git
+   - git (.gitconfig, .config/git/ignore)
    - tmux (also plugins)
    - ssh
    - liquid prompt
@@ -14,6 +14,7 @@ TODO:
    - vpn
    - cake
    - mtest (skeleton)
+   - vm-engine
 
 * Can take some ideas from:
 - https://github.com/aeolyus/dotfiles
