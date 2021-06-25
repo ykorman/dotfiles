@@ -1,0 +1,33 @@
+[user]
+	email = ykorman@gmail.com
+	name = Yigal Korman
+[core]
+	editor = vim
+[commit]
+	verbose = true
+[format]
+	pretty = format:%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(7)%aN%Cred%d %Creset%s
+[alias]
+	l =  log --pretty=format:"%C(auto)%h\\ %<(24)%C(cyan)%aN%C(auto)\\ %d\\ %s" --graph -n20
+	ll = log --relative-date --decorate --all --graph --abbrev-commit
+	st = status
+	co = checkout
+	ci = commit
+	sw = show -W
+	cp = cherry-pick
+	ru = remote update
+	wdiff = diff --color-words
+	ri = rebase --interactive
+	rc = rebase --continue
+	bl = branch -r --sort=-committerdate
+	ec = !vim $(git diff --name-only --diff-filter=U)
+[rerere]
+	enabled = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[rebase]
+	autosquash = true
+[core]
+	autocrlf = input

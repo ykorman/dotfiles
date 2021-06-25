@@ -1,0 +1,12 @@
+source ${HOME}/.profile
+
+if [[ $- = *i* ]] ; then
+	LP_ENABLE_PROXY=0
+	source ~/.liquidprompt/liquidprompt
+	source ~/.liquidprompt/themes/powerline/powerline.theme
+	lp_theme powerline_full
+fi
+
+if [[ -n $(git -C ${HOME}/.dotfiles status --porcelain) ]] ; then
+	echo "Warning: dotfiles contains modified files!" >&2
+fi
