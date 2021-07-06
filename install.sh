@@ -22,7 +22,8 @@ package_ubuntu_install() {
 link_dotfiles() {
 	local stow_cmd="stow --stow --dotfiles -v --ignore \.swp --ignore extras -t ${HOME}"
 	local dir
-	
+
+	# TODO: switch vim/.vim to vim/dot-vim when stow fixes issue #33
 	for dir in bash bin git htop tig tmux vim ; do
 		${stow_cmd} ${dir}
 	done
@@ -54,4 +55,3 @@ link_dotfiles
 # https://github.com/wfxr/tmux-power.git
 # LiquidPrompt
 # https://github.com/nojhan/liquidprompt.git
-# 
