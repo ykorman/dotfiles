@@ -14,3 +14,11 @@ set undoreload=10000        " number of lines to save for undo
 
 " use runenv.sh to build various projects, check ".runenv.conf" in specific directories
 autocmd BufNewFile,BufRead $HOME/Projects/* set makeprg=RE_COLORS=0\ RE_SHOW_SPLASH=0\ ~/bin/runenv.sh\ make
+
+" Spell-check Markdown files and Git Commit Messages
+autocmd FileType markdown setlocal spell
+autocmd FileType gitcommit setlocal spell
+
+" Enable dictionary auto-completion in Markdown files and Git Commit Messages
+autocmd FileType markdown setlocal complete+=kspell
+autocmd FileType gitcommit setlocal complete+=kspell
