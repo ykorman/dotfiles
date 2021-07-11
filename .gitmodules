@@ -10,3 +10,9 @@
 [submodule "vim/.vim/pack/colors/opt/papercolor-theme"]
 	path = vim/.vim/pack/colors/opt/papercolor-theme
 	url = https://github.com/NLKNguyen/papercolor-theme.git
+[submodule "vim/.vim/pack/dist/start/vim-airline"]
+	path = vim/.vim/pack/dist/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/.vim/pack/dist/start/vim-airline-themes"]
+	path = vim/.vim/pack/dist/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
