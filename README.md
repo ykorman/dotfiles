@@ -2,19 +2,15 @@
 
 TODO:
 
-1. use gnu stow for installation
-2. list of tools configuration to integrate:
-   - vim (vim-plug, list of plugins)
-   - git (.gitconfig, .config/git/ignore)
-   - tmux (also plugins)
-   - ssh
-   - liquid prompt
-   - aliases
-3. tools (~/bin)
+1. Consider https://github.com/twpayne/chezmoi as replacement for stow
+2. Tools (~/bin)
    - vpn
    - cake
    - mtest (skeleton)
    - vm-engine
+   - runenv.sh
+3. liquidprompt - fix slow prompt on large git repositories
+4. How should submodules/plugins get updated?
 
 * Can take some ideas from:
 - https://github.com/aeolyus/dotfiles

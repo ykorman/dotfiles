@@ -16,3 +16,6 @@
 [submodule "vim/.vim/pack/dist/start/vim-airline-themes"]
 	path = vim/.vim/pack/dist/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "bash/.liquidprompt"]
+	path = bash/.liquidprompt
+	url = https://github.com/nojhan/liquidprompt.git
