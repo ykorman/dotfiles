@@ -16,3 +16,9 @@
 [submodule "bash/.liquidprompt"]
 	path = bash/.liquidprompt
 	url = https://github.com/nojhan/liquidprompt.git
+[submodule "vim/.vim/pack/tpope/start/sensible"]
+	path = vim/.vim/pack/tpope/start/sensible
+	url = https://tpope.io/vim/sensible.git
+[submodule "vim/.vim/pack/tpope/start/fugitive"]
+	path = vim/.vim/pack/tpope/start/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
