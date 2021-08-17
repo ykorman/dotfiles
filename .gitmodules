@@ -1,9 +1,6 @@
 [submodule "vim/.vim/pack/plugins/start/vim_current_word"]
 	path = vim/.vim/pack/plugins/start/vim_current_word
 	url = https://github.com/dominikduda/vim_current_word.git
-[submodule "vim/.vim/pack/tpope/start"]
-	path = vim/.vim/pack/tpope/start
-	url = https://tpope.io/vim/sensible.git
 [submodule "vim/.vim/pack/plugins/start/vim-better-whitespace"]
 	path = vim/.vim/pack/plugins/start/vim-better-whitespace
 	url = git://github.com/ntpeters/vim-better-whitespace.git
