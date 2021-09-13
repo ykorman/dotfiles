@@ -2,7 +2,7 @@
 
 set -euo pipefail # strict mode
 
-common_packages="curl wget git vim htop tmux tig stow"
+common_packages="curl wget git vim htop tmux tig stow cscope"
 ubuntu_packages=""
 fedora_packages=""
 

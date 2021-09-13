@@ -22,3 +22,8 @@ autocmd FileType gitcommit setlocal spell
 " Enable dictionary auto-completion in Markdown files and Git Commit Messages
 autocmd FileType markdown setlocal complete+=kspell
 autocmd FileType gitcommit setlocal complete+=kspell
+
+" cscope autoupdate for C/C++ (https://vim.fandom.com/wiki/Automatically_create_and_update_cscope_database)
+nmap <F10> :!find . -iname '*.c' -o -iname '*.cpp' -o -iname '*.h' -o -iname '*.hpp' > cscope.files<CR>
+  \:!cscope -b -i cscope.files -f cscope.out<CR>
+  \:cs reset<CR>
